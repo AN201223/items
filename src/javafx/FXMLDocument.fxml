@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafx.FXMLDocumentController">
+    <children>
+        <Button layoutX="107" layoutY="14" text="Get random item" onAction="#randomPressed" fx:id="random" />
+        <Label layoutX="98" layoutY="85" text="Enter name here" fx:id="label" />
+        <TextField layoutX="90" layoutY="49" text="" fx:id="nameEnter" />
+        <Label layoutX="11" layoutY="105" text="" fx:id="output" />
+        
+    </children>
+</AnchorPane>
